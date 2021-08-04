@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Todolist from './todolist';
+import List2 from './todolist2';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Todolist />
+      <List2 />
+      {/* <Todolist />
+      <Todo /> */}
+{/* 
+---Create a state with an array of the todo list 
+---input box where we take the added to-dos 
+  --form with Change method and Submit 
+--
+---Display the to-do list and edit and delete them 
+*/}
+
+
     </div>
   );
 }
